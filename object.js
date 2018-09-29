@@ -1,22 +1,8 @@
-/*var myCar = new Object();
-
-myCar.make = 'Ford';
-myCar.model = 'Mustang';
-myCar.year = 1969;
-
-console.log(myCar)*/
-// these 3 lines has the same effect
-
-var myCar = {
-    make: 'Ford',
-    model: 'Mustang',
-    year: 1969,
-    parts: {
-        engine: 'desel',
-        body: 'coupe',
-    },
-    sound: function () {
-        alert('Wrrrrr!');
-    }
+function sum(number1, number2) {
+    return number1 + number2;
 }
-console.log(myCar.sound())
+
+const arrowSum = (number1, number2) => number1 + number2;
+
+console.log(sum(100, 200));
+console.log(arrowSum(100, 200));
