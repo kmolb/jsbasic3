@@ -1,6 +1,11 @@
 // tablice  //un shift() dodaje na poczatku
 
-var a = [1,2,3]
-a.unshift(4,5);
+let a = [1,2,3,4,5]
 
-console.log(a); //[4,5,1,2,3]
+a.unshift (0);
+a.push (6);
+console.log(a);
+
+a.shift();
+a.pop();
+console.log(a);
