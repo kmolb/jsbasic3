@@ -1,10 +1,12 @@
-const a = [1,2,3,4,5,6,7,8,9];
+//task 6
+const values = [];
 
-for (let value of a) {
-    console.log('Value:', value);
-
+for(let i = 0; i <5; i++) {
+    const randomValues = Math.floor((Math.random()) * 1000) + 1);
+    values.push(randomValues);
+    if(i > 0) {
+        break;
+    }
 }
 
-for(let index in a){
-    console.log('Index:', index);
-}
+console.log(values);
