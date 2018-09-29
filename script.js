@@ -1,4 +1,4 @@
-var numbers = [1,2,3,4,5];
+var numbers = Array(5000).fill()
 console.time('in loop')
 for (var i = 0; i < numbers.length; i++){
     console.log(numbers[i])
