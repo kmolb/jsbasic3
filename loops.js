@@ -1,19 +1,10 @@
-/* var i = 0;
-var a = 0;
+const a = [1,2,3,4,5,6,7,8,9];
 
-while(i < 10) {
-    i++;
-    a += 2;
+for (let value of a) {
+    console.log('Value:', value);
 
 }
-console.log("dla a:",a);
-console.log("dla i:",i);
-*/
-////////////////////////////////////////////////
-const a = [1,2,3,4,5,6,7,8,9,10]
-let i = 0;
 
-while( i < a.length) {
-    console.log('tra', a[i]);
-    i++;
+for(let index in a){
+    console.log('Index:', index);
 }
