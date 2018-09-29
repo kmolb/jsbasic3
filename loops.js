@@ -1,8 +1,19 @@
-const values = [];
+/* var i = 0;
+var a = 0;
 
-for(let i = 0; i < 10; i++) {
-    const randomValues = Math.floor(( Math.random() * 1000) + 1)
-    values.push(randomValues);
+while(i < 10) {
+    i++;
+    a += 2;
+
 }
+console.log("dla a:",a);
+console.log("dla i:",i);
+*/
+////////////////////////////////////////////////
+const a = [1,2,3,4,5,6,7,8,9,10]
+let i = 0;
 
-console.log(values);
+while( i < a.length) {
+    console.log('tra', a[i]);
+    i++;
+}
