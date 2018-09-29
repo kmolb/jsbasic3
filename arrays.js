@@ -1,11 +1,16 @@
-// tablice  //un shift() dodaje na poczatku
+// tablice  //slice tablicy
+/*const a = [1,2,3, ["a", "b", "c"]];
+// const b=a
+const b = a.slice(0, a.length );
 
-let a = [1,2,3,4,5]
+b[3].push("d");
 
-a.unshift (0);
-a.push (6);
-console.log(a);
+console.log(a,b);
+*/
 
-a.shift();
-a.pop();
-console.log(a);
+var a = ['zero', 'one', 'two', 'three'];
+var sliced = a.slice(1,3);
+
+console.log(a); // zero, one ,two, three
+
+console.log(sliced);   //one two
